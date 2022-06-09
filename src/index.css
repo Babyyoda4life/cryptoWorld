@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply bg-primary text-primary;
+}
+
+.rounded-div {
+  @apply border border-accent rounded-2xl shadow-xl bg-primary px-2 max-w-[1140px] w-full mx-auto;
+}
+
+.dark {
+  --color-bg-primary: #164e63;
+  --color-bg-secondary: #155e75;
+  --color-text-primary: #a5f3fc;
+  --color-text-secondary: #e0f2fe;
+  --color-text-accent: #bae6fd;
+  --color-bg-input: #a5f3fc;
+  --color-bg-button: #0891b2;
+}
+
+.light {
+  --color-bg-primary: #e9f4f5;
+  --color-bg-secondary: #dffcff;
+  --color-text-primary: #164e63;
+  --color-text-secondary: #155e75;
+  --color-text-accent: #bae6fd;
+  --color-bg-input: #edf2f7;
+  --color-bg-button: #0891b2;
+}
